@@ -19,10 +19,10 @@ kubectl get pods -n ingress-nginx \
 
 ## Tekton installation
 ```text
-kubectl apply -f https://storage.googleapis.com/tekton-releases/operator/previous/v0.23.0-2/release.yaml
+kubectl apply -f https://storage.googleapis.com/tekton-releases/operator/previous/v0.53.0/release.yaml
 ```
 ```text
-kubectl apply -f https://raw.githubusercontent.com/tektoncd/operator/v0.23.0-2/config/crs/kubernetes/config/all/operator_v1alpha1_config_cr.yaml
+https://raw.githubusercontent.com/tektoncd/operator/release-v0.53.x/config/crs/kubernetes/config/all/operator_v1alpha1_config_cr.yaml
 ```
 Check the status of Operator:
 ```text
@@ -39,7 +39,7 @@ kubectl get ingress -n tekton-pipelines
 ## Example Demo
 #### Clone the code
 ```text
-git clone https://github.com/savitaashture/kcd-tekton-samples/
+git clone https://github.com/savitaashture/devconf-cz-tekton-samples/
 ```
 #### Create Namespace
 ```text
@@ -84,7 +84,7 @@ kubectl get ing -n demo
 ```
 
 #### Configure EL URL in GitHub webhook
-![Webhook Configuration](https://github.com/savitaashture/kcd-tekton-samples/blob/main/image/webhook.png)
+![Webhook Configuration](https://github.com/savitaashture/devconf-cz-tekton-samples/blob/main/image/webhook.png)
 
 Create/reopen a PR for this repository.
 

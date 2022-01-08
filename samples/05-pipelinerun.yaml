@@ -10,9 +10,9 @@ spec:
     - name: deployment-name
       value: sample-app
     - name: git-url
-      value: https://github.com/savitaashture/kcd-tekton-samples
+      value: https://github.com/savitaashture/devconf-cz-tekton-samples
     - name: IMAGE
-      value: quay.io/savitaashture/kcd:latest
+      value: quay.io/savitaashture/devconfcz:latest
   workspaces:
     - name: shared-workspace
       volumeClaimTemplate:
