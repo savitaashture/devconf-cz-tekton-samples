@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: cred
+secrets:
+- name: demo-credentials
+imagePullSecrets:
+- name: demo-credentials
+
