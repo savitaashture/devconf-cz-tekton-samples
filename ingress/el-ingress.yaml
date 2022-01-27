@@ -14,4 +14,4 @@ spec:
             pathType: Prefix
             backend:
               serviceName: el-github-listener-interceptor
-              servicePort: 8000
+              servicePort: 8080

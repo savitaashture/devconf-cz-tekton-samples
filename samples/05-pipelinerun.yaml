@@ -12,7 +12,7 @@ spec:
     - name: git-url
       value: https://github.com/savitaashture/devconf-cz-tekton-samples
     - name: IMAGE
-      value: quay.io/savitaashture/devconfcz:latest
+      value: docker.io/savita3020/devconfcz:latest
   workspaces:
     - name: shared-workspace
       volumeClaimTemplate:
