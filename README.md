@@ -1,4 +1,3 @@
-1111
 # devconf-cz-tekton-sampless
 
 ## Prerequisites:
