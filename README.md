@@ -67,8 +67,7 @@ kubectl create ns demo
 ### Manual Pipeline Creation
 #### Create secret
 ```text
-#kubectl -n demo create secret docker-registry demo-credentials --docker-server=quay.io --docker-username=savitaashture --docker-password=<password>
-kubectl -n demo create secret docker-registry demo-credentials --docker-server=docker.io --docker-username=savita3020 --docker-password=12_abcdef
+kubectl -n demo create secret docker-registry demo-credentials --docker-server=docker.io --docker-username=savita3020 --docker-password=<password>
 ```
 
 #### Create Tasks
